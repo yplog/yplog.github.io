@@ -1,26 +1,46 @@
-/* custom.css */
-
-code {
-    color: black;
+.main {
+	padding: 20px 10px;
 }
 
-/* When highlighted code blocks are too wide, they wrap. Resulting in the */
-/* line numbers column's rows not lining up with the code rows. Prevent */
-/* wrapping. */
-pre {
-    white-space: pre;
-    width: inherit;
+.hack h1 {
+	padding-top: 0;
 }
 
-article img {
-  /* Make sure that images within blog articles never take more width
-     than the article width; `height: auto` ensures the height is also
-     resized proportionally.
+.example {
+	margin-bottom: 20px;
+}
 
-     This is useful given that Markdown itself gives you little
-     control over image resizing, and in particular no way to achieve
-     this "best fit" behavior.
- */
-  max-width: 100%;
-  height: auto;
+.example .btn {
+	margin-bottom: 10px;
+}
+
+footer.footer {
+	border-top: 1px solid #ccc;
+	margin-top: 80px;
+	margin-top: 5rem;
+	padding: 48px 0;
+	padding: 3rem 0;
+}
+
+.grid-example {
+	padding: 0 2px;
+	background-color: #ccc;
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+}
+
+.grid-example .cell {
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 4px 2px;
+	color: #999;
+}
+
+.grid-example .cell .content {
+	background-color: #ddd;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+	background-color: transparent;
+	font-weight: normal;
 }
