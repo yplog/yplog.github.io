@@ -4,18 +4,14 @@
   <title>yp: yp</title>
   <description>yp: yp</description>
   <link>yplog.github.io/index.html</link>
-  <lastBuildDate>Sat, 31 Dec 2011 22:00:00 UT</lastBuildDate>
-  <pubDate>Sat, 31 Dec 2011 22:00:00 UT</pubDate>
+  <lastBuildDate>Thu, 20 Feb 2020 09:04:44 UT</lastBuildDate>
+  <pubDate>Thu, 20 Feb 2020 09:04:44 UT</pubDate>
   <ttl>1800</ttl>
   <item>
-   <title>A 2012 blog post</title>
-   <link>yplog.github.io/2012/01/a-2012-blog-post.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:yplog-github-io:-2012-01-a-2012-blog-post-html</guid>
-   <pubDate>Sat, 31 Dec 2011 22:00:00 UT</pubDate>
+   <title>Hello World</title>
+   <link>yplog.github.io/2020/02/hello-world.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:yplog-github-io:-2020-02-hello-world-html</guid>
+   <pubDate>Thu, 20 Feb 2020 09:04:44 UT</pubDate>
    <author>yp</author>
    <description>
-&lt;p&gt;Here is an example blog post.&lt;/p&gt;
-
-&lt;p&gt;Everything after this paragraph &amp;ldquo;after the break&amp;rdquo;. On index pages and Atom feeds, it will become &amp;ldquo;Continue reading&amp;hellip;&amp;rdquo;, if you configure them to include only the summary &amp;ldquo;blurb&amp;rdquo; before the break.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;some code&lt;/code&gt;&lt;/pre&gt;&lt;a href="yplog.github.io/2012/01/a-2012-blog-post.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
+&lt;p&gt;A classic Hello World! &amp;ldquo;I didn&amp;rsquo;t have the money to buy a new laptop&amp;rdquo;&lt;/p&gt;&lt;a href="yplog.github.io/2020/02/hello-world.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

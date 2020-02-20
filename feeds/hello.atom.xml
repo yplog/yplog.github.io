@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">yp: Posts tagged 'hello'</title>
+ <link rel="self" href="yplog.github.io/feeds/hello.atom.xml" />
+ <link href="yplog.github.io/tags/hello.html" />
+ <id>urn:yplog-github-io:-tags-hello-html</id>
+ <updated>2020-02-20T09:04:44Z</updated>
+ <entry>
+  <title type="text">Hello World</title>
+  <link rel="alternate" href="yplog.github.io/2020/02/hello-world.html?utm_source=hello&amp;utm_medium=Atom" />
+  <id>urn:yplog-github-io:-2020-02-hello-world-html</id>
+  <published>2020-02-20T09:04:44Z</published>
+  <updated>2020-02-20T09:04:44Z</updated>
+  <author>
+   <name>yp</name></author>
+  <content type="html">
+&lt;p&gt;A classic Hello World! &amp;ldquo;I didn&amp;rsquo;t have the money to buy a new laptop&amp;rdquo;&lt;/p&gt;&lt;a href="yplog.github.io/2020/02/hello-world.html?utm_source=hello&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
