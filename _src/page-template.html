@@ -27,7 +27,12 @@
 
   <body class="hack dark">
     <div class="container">
-      <img src="../img/dream_sandman.png" width="816px" alt="Dream">
+      @(when (string-ci=? uri-path
+                            (string-append uri-prefix
+                                            "/index.html"))
+        @list{
+          <img src="../img/dream_sandman.png" width="816px" alt="Dream">
+        })
       <a href="@|uri-prefix|/index.html">yp/</a>
       <hr />
     </div>
