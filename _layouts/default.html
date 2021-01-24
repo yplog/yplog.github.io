@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="yalın pala, yp, yplog, home page, blog, contact, links">
+    <meta name="description" content="yalın pala's home page">
+    <title>yp's home page</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/fontawesome-free-5.15.2-web/css/all.min.css" | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <section class="content">
+      <section class="about">
+        {{ content }}
+      </section>
+
+      <hr>
+      
+      <section class="contact">
+        <section class="column">
+          <h2>Contact</h2>
+          <ul>
+            <li>
+              <i class="far fa-envelope"></i> 
+              <a href="mailto:yp@riseup.net">Say hello</a> 
+              yp[at]riseup[dot]net
+            </li>
+            <li>
+              <i class="far fa-envelope"></i> 
+              <a href="mailto:yalinpala@protonmail.com">Say hello</a> 
+              yalinpala[at]protonmail[dot]com
+            </li>
+            <li>
+              <i class="fab fa-telegram-plane"></i> 
+              Telegram
+              <a href="https://t.me/ypala" target="_blank">@ypala</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="column">
+          <h2>Links</h2>
+          <ul>
+            <li>
+              <i class="fab fa-github"></i> 
+              GitHub
+              <a href="https://github.com/yplog" target="_blank">@yplog</a>
+            </li>
+            <li>
+              <i class="fab fa-gitlab"></i> 
+              GitLab 
+              <a href="https://gitlab.com/ypala" target="_blank">@ypala</a>
+            </li>
+            <li>
+              <i class="fab fa-keybase"></i> 
+              Keybase
+              <a href="https://keybase.io/yp" target="_blank">@yp</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <hr>
+      
+      <section class="blog-archive">
+        <h2>Blog Archive</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>
