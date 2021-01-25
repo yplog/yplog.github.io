@@ -88,3 +88,19 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .res-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+}
